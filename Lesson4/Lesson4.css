@@ -1,4 +1,51 @@
 *{box-sizing: border-box;
 margin: 0;
-padding: 0;}
-p { color:green; }
+padding: 0;
+}
+a{text-decoration: none;}
+span{word-spacing:5px;}
+.navigation, .title,.description,.about_me,.skills,.work{
+font-family:  Verdana, Geneva, Tahoma, sans-serif;
+ font-style: normal;
+ text-align: center;
+ }
+ .Denis{margin-right: 250px;
+margin-left: 250px;}
+ .about_me,.skills{
+       font-size:30px;
+       font-weight: 300px;
+       margin-top: 50px;
+ }
+ .navigation{border-bottom: 1px solid lightslategray;}
+.navigation,.description,.work{
+font-size: 18px;
+font-weight:400px;}
+.navigation{
+margin-left: 150px;
+margin-right: 150px;
+padding-bottom: 20px;
+word-spacing: 20px;
+}
+.title{
+      font-size: 36px;
+      font-weight:800px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+
+}
+ .description{
+       margin-top: 60px;
+       margin-bottom: 60px;
+       padding-bottom: 60px;
+background-color: rgb(241, 239, 239);
+ }
+ .first{background-color: rgb(241, 239, 239);
+margin: 0 0 110 0;
+padding-bottom: 50px;
+}
+
+
+.ps,.ae,.ai{ margin-left:250px ;
+}
+.stars-ps,.stars-ai,.stars-ae{margin-left: 200px;}
+
