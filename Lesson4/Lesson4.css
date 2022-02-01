@@ -9,8 +9,6 @@ font-family:  Verdana, Geneva, Tahoma, sans-serif;
  font-style: normal;
  text-align: center;
  }
- .Denis
-     
  .about_me,.skills{
        font-size:30px;
        font-weight: 300px;
@@ -48,4 +46,9 @@ padding-bottom: 50px;
 .ps,.ae,.ai{ margin-left:250px ;
 }
 .stars-ps,.stars-ai,.stars-ae{margin-left: 200px;}
-
+.portfolio{height: 200px; 
+ background-color: rgb(241, 239, 239);
+}
+h2 { text-align: center;
+      padding-top:90px ;
+}
