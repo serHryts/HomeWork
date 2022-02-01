@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 }
-a{text-decoration: none;}
+div.navigation>a{text-decoration: none;}
 span{word-spacing:5px;}
 .navigation, .title,.description,.about_me,.skills,.work{
 font-family:  Verdana, Geneva, Tahoma, sans-serif;
@@ -46,9 +46,12 @@ padding-bottom: 50px;
 .ps,.ae,.ai{ margin-left:250px ;
 }
 .stars-ps,.stars-ai,.stars-ae{margin-left: 200px;}
-.portfolio{height: 200px; 
+.portfolio,.onlineStore{height: 200px; 
  background-color: rgb(241, 239, 239);
+ padding-top: 10px;
 }
 h2 { text-align: center;
       padding-top:90px ;
 }
+.onlineStore{text-align: center;
+font-size:30px ;}
