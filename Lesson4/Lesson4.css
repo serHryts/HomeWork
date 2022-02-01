@@ -1,78 +1,134 @@
-*{box-sizing: border-box;
-margin: 0;
-padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.navigation a,.sendMessage a{text-decoration: none;}
-span{word-spacing:5px;}
-.navigation, .title,.description,.about_me,.skills,.work{
-font-family:  Verdana, Geneva, Tahoma, sans-serif;
- font-style: normal;
- text-align: center;
- }
- .about_me,.skills{
-       font-size:30px;
-       font-weight: 300px;
-       margin-top: 50px;
- }
- .navigation{border-bottom: 1px solid lightslategray;}
-.navigation,.description,.work{
-font-size: 18px;
-font-weight:400px;}
-.navigation{
-margin-left: 150px;
-margin-right: 150px;
-padding-bottom: 20px;
-word-spacing: 20px;
+.navigation a,
+.sendMessage a {
+  text-decoration: none;
 }
-.title{
-      font-size: 36px;
-      font-weight:800px;
-      margin-top: 40px;
-      margin-bottom: 40px;
-
+.navigation span {
+  word-spacing: 5px;
 }
- .description{
-       margin-top: 60px;
-       margin-bottom: 60px;
-       padding-bottom: 60px;
-background-color: rgb(241, 239, 239);
- }
- .first{background-color: rgb(241, 239, 239);
-margin: 0 0 110 0;
-padding-bottom: 50px;
+.navigation,
+.title,
+.description,
+.about_me,
+.skills,
+.work {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+.aboutMe,
+.skills {
+  font-size: 30px;
+  font-weight: 300px;
+  margin-top: 50px;
+}
+.aboutMe {
+  background-color: rgb(241, 239, 239);
 }
 
-
-.ps,.ae,.ai{ margin-left:250px ;
+.navigation {
+  border-bottom: 1px solid rgb(241, 239, 239);
 }
-.stars-ps,.stars-ai,.stars-ae{margin-left: 200px;}
-.portfolio,.onlineStore{height: 200px; 
- background-color: rgb(241, 239, 239);
- padding-top: 10px;
+.navigation,
+.description,
+.work {
+  font-size: 18px;
+  font-weight: 400px;
 }
-h2 { text-align: center;
-      padding-top:90px ;
+.navigation {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-bottom: 20px;
+  word-spacing: 20px;
 }
-.onlineStore,.bay,.sendMessage{text-align: center;
-font-size:22px ;
-font-family:Open Sans;
-font-weight: 400;
+.title {
+  font-size: 36px;
+  font-weight: 800px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-div.onlineStore a{color: black;}
-.contacts{
- font-size: 36px;
- font-weight:bold;
-text-align: center;
-padding-top: 100px;}
-.bay{
-padding-top: 20px;
-padding-bottom: 80px;}
-.sendMessage{
-background-color: black;
-margin-right: 600px;
-margin-left:600px;
-border-radius: 20px;
-padding-top: 5px;
-padding-bottom: 5px;
+.description {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  background-color: rgb(241, 239, 239);
 }
-.sendMessage a{color:rgb(241, 239, 239);}
+.first {
+  background-color: rgb(241, 239, 239);
+  margin: 0 0 110 0;
+  padding-bottom: 50px;
+}
+.ps,
+.ae,
+.ai {
+  margin-left: 250px;
+}
+.stars-ps,
+.stars-ai,
+.stars-ae {
+  margin-left: 220px;
+}
+.portfolio,
+.onlineStore {
+  height: 200px;
+  background-color: rgb(241, 239, 239);
+  padding-top: 10px;
+}
+h2 {
+  text-align: center;
+  padding-top: 90px;
+}
+.onlineStore,
+.bay,
+.sendMessage {
+  text-align: center;
+  font-size: 22px;
+  font-family: Open Sans;
+  font-weight: 400;
+}
+div.onlineStore a {
+  color: black;
+}
+.contacts {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 100px;
+}
+.bay {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.sendMessage {
+  background-color: black;
+  margin-right: 600px;
+  margin-left: 600px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sendMessage a {
+  color: rgb(241, 239, 239);
+}
+.social {
+  margin-left: 500px;
+  padding-top: 20px;
+}
+.insta,
+.boll,
+.be {
+  padding-left: 56px;
+}
+.likeMe {
+  text-align: center;
+  margin-top: 20px;
+}
+.likeMe p,
+.navigation a {
+  opacity: 0.5;
+}
