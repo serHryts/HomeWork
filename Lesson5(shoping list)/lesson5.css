@@ -1,0 +1,148 @@
+*{box-sizing:border-box;
+margin:0;
+padding:0;
+background-color: rgb(211, 208, 208);
+}
+.mainConteiner{background-color:rgb(121, 122, 118);
+height: 700px;
+margin: 20px;
+}
+.chapterFirst{
+height:auto;
+width: 100%;
+text-align: center;
+border: 2px solid rgb(84, 84, 221);
+}
+.boneApetit,
+header,.chapterFirst h2,h4{background-color:rgb(170,167,167) ;}
+.checkFirst,
+.checkSecond,
+.checkThird,
+.checkFour,
+.checkFive,
+.checkSix {
+  font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+  font-size: 18px;
+}
+.checkListFirst::after {
+  content: "(for next lesson about css)";
+  font-size: 12px;
+}
+.checkListSecond::after {
+  content: "(For more CSS manipulation)";
+  font-size: 12px;
+}
+.checkListThird::after {
+  content: "(because they are awesome)";
+  font-size: 12px;
+}
+.checkListFour::after {
+  content: "(hm...whey always dissapeare)";
+  font-size: 12px;
+}
+.checkListSix::after {
+  content: "(for my friends)";
+  font-size: 12px;
+}
+.sq {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.boneApetit,
+.checkFirst,
+.checkSecond,
+.checkThird,
+.checkFour,
+.checkFive,
+.checkSix {
+  height: 40px;
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.checkFirst,
+.checkThird,
+.checkFive,
+.checkSecond,
+.checkFour,
+.checkSix 
+{
+  background-color: rgb(172, 70, 121);
+}
+.checkFirst:hover {
+  background-color: rgb(87, 79, 84);
+  border-top: 2px solid white;
+  border-bottom: 1px solid white;
+}
+
+.checkThird:hover {
+  background-color:  rgb(87, 79, 84);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.checkSecond:hover {
+  background-color: rgb(87, 79, 84);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.checkFour:hover {
+  background-color: rgb(87, 79, 84);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.checkFive:hover {
+  background-color:  rgb(87, 79, 84);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.checkSix:hover {
+  background-color:  rgb(87, 79, 84);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.checklListFirst:hover {
+  background-color:rgb(87,79,84);}
+.checkListSecond:hover {
+  background-color:rgb(87,79,84);}
+.checkListThird:hover {
+  background-color:rgb(87,79,84);}
+.checkListFour:hover {
+  background-color:rgb(87,79,84);}
+.checkListFive:hover {
+  background-color:rgb(87,79,84);}
+.checkListSix:hover {
+  background-color:rgb(87,79,84);}
+
+input[id="cb"]:checked~.checkListFirst {
+  text-decoration: line-through;
+}
+input[id="cb"]:checked ~ .checkListSecond {
+  text-decoration: line-through;
+}
+input[id="cb"]:checked ~ .checkListThird {
+  text-decoration: line-through;
+}
+input[id="cb"]:checked ~ .checkListFour {
+  text-decoration: line-through;
+}
+input[id="cb"]:checked ~ .checkListFive {
+  text-decoration: line-through;
+}
+input[id="cb"]:checked ~ .checkListSix {
+  text-decoration: line-through;
+}
+
+
+
+a,label,span,.strike,.conteiner{background-color: inherit;}
+.boneApetit,.conteiner{
+margin-left: 400px;}
+.boneApetit{text-align: center;
+  font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+  font-size: 18px;}
+.conteiner{margin-top: 30px;
+width: 500px;}
+.boneApetit {margin-top: 100px;}
