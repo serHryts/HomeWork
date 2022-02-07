@@ -8,15 +8,17 @@
 }
 .conteiner{
       position :absolute;
-      width: auto;
+      max-width: 1400px;
+      width: 100%;
+
 }
 
 .link {position:relative;
-  width: auto;
+ max-width:350px;
   word-spacing: 15px;
   display: inline-block;
-  margin-left: 650px;
-  margin-right: 30px;
+  margin-left: 400px;
+  margin-right: 10px;
   
 }
 .link>a{font-size: 20px;
@@ -34,6 +36,7 @@ color: black;}
   padding: 10px 15px;
   border-radius: 3px;
   border: 1px solid blue;
+  
 }
 .singIn {
   margin-right: 30px;
@@ -61,12 +64,15 @@ span {
   position: absolute;
   left: 850px;
   top: 50px;
-  width: 610px;
+  max-width: 600px;
+  max-height: 500px;
 }
 
 .oval {display: block;
   position: absolute;
-  width: 460px;
+  max-width: 470px;
+  max-height: 440px;
+
   left: 880px;
   top:70px;
 }
