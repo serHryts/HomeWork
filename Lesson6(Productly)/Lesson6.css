@@ -9,28 +9,34 @@
 .conteiner{
       position :absolute;
       max-width: 1400px;
-      width: 100%;
+      margin-left: 70px;
+      height: 80px;
 
 }
 
 .link {position:relative;
+  display:inline;
  max-width:350px;
   word-spacing: 15px;
   display: inline-block;
-  margin-left: 400px;
+  margin-left: 450px;
   margin-right: 10px;
   
 }
 .link>a{font-size: 20px;
 color: black;}
 .icon {
-  margin-left: 170px;
+  
   margin-top: 20px;
 }
 .name {
   margin-left: 10px;
 }
-
+.button{position: relative;;
+display: inline-block;
+max-width:160px;
+margin-left: 820px;
+}
 .singIn,
 .singUp {
   padding: 10px 15px;
@@ -38,10 +44,11 @@ color: black;}
   border: 1px solid blue;
   
 }
-.singIn {
-  margin-right: 30px;
+.singIn {position:relative;
+  display: inline;
 }
-.singUp {
+.singUp {position: relative;
+  display: inline;
   background-color:orangered;
 }
 .up {
@@ -62,7 +69,7 @@ span {
 .people {
       display: block;
   position: absolute;
-  left: 850px;
+  left: 600px;
   top: 50px;
   max-width: 600px;
   max-height: 500px;
@@ -73,7 +80,7 @@ span {
   max-width: 470px;
   max-height: 440px;
 
-  left: 880px;
+  left: 650px;
   top:70px;
 }
 h1{font-size:48px;}
@@ -86,7 +93,7 @@ font-size: 24px;}
   width: 500px;
   height: 500px;
   top: 90px;
-  left:170px;
+  left:70px;
 }
 .blokButton{
  position: relative;
