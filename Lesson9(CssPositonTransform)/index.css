@@ -1,0 +1,22 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    .wrapper {display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      max-width: 1920px;
+      width: 100%;
+    }
+      .brand{display: flex;
+           width:340px;
+           height:280px;
+           margin: 15px;
+           background-color: lightgrey;}
+           .picture{margin: auto;
+      width: 70%;
+}
+#backcolor{
+  background-color: black;    
+}
