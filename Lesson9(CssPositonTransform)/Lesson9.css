@@ -22,9 +22,11 @@
   z-index: 10;
   background-color: inherit;
 }
-.item{position: inherit;
-margin-top: 50px;
-background-color: inherit;}
+.item {
+  position: inherit;
+  margin-top: 50px;
+  background-color: inherit;
+}
 .sidebar {
   position: sticky;
   top: 120px;
@@ -32,23 +34,19 @@ background-color: inherit;}
   width: inherit;
   background-color: inherit;
   z-index: 1;
-  opacity: 0.6;
 }
 .text {
   position: absolute;
   top: 120px;
   left: 600px;
   width: 60%;
-  z-index: 3;
-  opacity: 0.6;
+  z-index: 6;
 }
 h4 {
-  
   font-family: PT sans;
   font-size: 36px;
   font-weight: 900;
   background-color: inherit;
-
 }
 .spaece {
   margin-right: 15px;
@@ -74,25 +72,27 @@ h4 {
   left: 880px;
   max-width: 760px;
   max-height: 760px;
+  z-index: 5;
 }
-.logo{display: inline-block;
+.logo {
+  display: inline-block;
   font-size: 60px;
   font-weight: 600;
   padding-right: 20px;
   max-width: 400px;
   width: 100%;
-  
-}.someText{
-  display:inline-block;
-padding-top: 50px;
-margin-left: 10px;
-font-family: Roboto;
-font-size: 20px;
-font-weight: 400;
 }
-.emg{position: inherit;
-  color:white;
-  -webkit-text-stroke-width:2px;
-  -webkit-text-stroke-color: black;}
-
-
+.someText {
+  display: inline-block;
+  padding-top: 50px;
+  margin-left: 10px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+}
+.emg {
+  position: inherit;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
