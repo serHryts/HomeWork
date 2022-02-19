@@ -1,0 +1,74 @@
+:root {
+  --color-gray: #808080;
+  --color-white: #fff;
+  --color-black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--color-gray);
+}
+.c-wrapper {
+  max-width: 1400px;
+  width: 100%;
+  background-color: var(--color-white);
+  padding: 0 100px;
+  margin: 0 auto;
+}
+.c-wrapper__disign {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-white);
+}
+.c-wrapper__product-manegers {
+  display: flex;
+  justify-content: space-between;
+}
+.c-text {
+  max-width: 500px;
+  width: 100%;
+  padding: 0 20px;
+}
+.c-text__description {
+  font-size: 18px;
+  font-family: Popins;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.c-text__title {
+  font-size: 18px;
+  font-family: Popins;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.big-font {
+  font-size: 36px;
+  font-family: Popins;
+  font-weight: 700;
+}
+.c-text__list {
+  margin-top: 30px;
+}
+.c-text__item:before {
+  content: url("../Lesson10\(BEM-Metodology\)/assets/checked.png");
+  padding-left: 10px;
+}
+.c-text__item {display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 20px;
+}
+.some-text {
+  margin-left: 25px;
+  font-size: 18px;
+  font-family: Popins;
+  font-weight: 500;
+}
+.c-img__man {
+  max-width: 520px;
+  width: 100%;
+}
