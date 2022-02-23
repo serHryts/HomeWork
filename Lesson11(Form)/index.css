@@ -1,0 +1,187 @@
+:root {
+  --color-gray: #f2f2f2;
+  --color-lightgray: #f7f7f7;
+  --color-white: #ffff;
+  --color-blou: #007bff;
+  --color-middlegrey: #545454;
+  --color: #969696;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.conteiner {
+  background-color: var(--color-gray);
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+}
+.conteiner__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1210px;
+  width: 100%;
+  height: 1250px;
+  background-color: var(--color-lightgray);
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+}
+.create-account,
+.profile {
+  max-width: 540px;
+  width: 100%;
+  height: 700px;
+  background-color: var(--color-white);
+}
+.label {
+  display: block;
+  margin-top: 20px;
+}
+.create-account__name,
+.create-account__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: var(--color-middlegrey);
+  margin-top: 40px;
+}
+.create-account__title,
+.profile__title {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 900;
+}
+.name {
+  display: block;
+  margin-top: 5px;
+  padding: 5px 10px;
+  width: 245px;
+  height: 40px;
+  border-radius: 6px;
+}
+.name:focus {
+}
+.name:hover {
+  border-color: #007bff;
+  background-color: var(--color-lightgray);
+}
+.email:hover {
+  border-color: #007bff;
+  background-color: var(--color-lightgray);
+}
+
+.create-account__mail {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.email {
+  max-width: 500px;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+.subtitle {
+  margin-top: 5px;
+  margin-left: 20px;
+  color: var(--color);
+}
+.check {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.create-account__description,
+.create-account__log-in {
+  padding: 10px 40px;
+  text-align: center;
+}
+.create-account__log-in {
+}
+.link-decoration,
+.link {
+  color: var(--color-blou);
+  font-weight: 700;
+}
+#select-name {
+  appearance: none;
+  background: url("../Lesson11\(Form\)/assets/arrows.svg") no-repeat right
+    center;
+  background-size: 2em;
+}
+.trash {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: var(--color-white);
+}
+.trash::focus {
+  border-color: var(--color-blou);
+}
+.trash::hover {
+  background-color: var(--color);
+}
+.button__foto {
+  width: 140px;
+  height: 30px;
+  border-radius: 6px;
+  text-align: right;
+  padding-right: 5px;
+  background-color: var(--color-white);
+  appearance: none;
+  background: url("../Lesson11\(Form\)/assets/Photocamera.svg") no-repeat right
+    center;
+  background-size: 2em;
+}
+.button__foto:focus {
+  border-color: var(--color-blou);
+}
+
+.profile__name {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 30px;
+}
+.foto,
+.input-button {
+  margin-left: 25px;
+}
+.path {
+  margin-left: 15px;
+}
+.profile__subtitle {
+  color: var(--color);
+  margin-left: 70px;
+}
+.input-button {
+  margin-top: 20px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.icon-trash {
+  width: 25px;
+  height: 25px;
+}
+.name-empty {
+  display: block;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 5px 10px;
+  width: 180px;
+  height: 40px;
+  border-radius: 6px;
+}
+.name-empty:focus {
+  border-color: #007bff;
+}
+.name-empty:hover {
+  
+  background-color: var(--color);
+}
